@@ -2,7 +2,7 @@
   "name": "cdyun/php-http",
   "type": "library",
   "license": "MIT",
-  "description": "Webman plugin cdyun/php-http",
+  "description": "php模拟http请求",
   "keywords": [
     "php",
     "http",
