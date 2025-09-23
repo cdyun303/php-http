@@ -1,0 +1,27 @@
+{
+  "name": "cdyun/php-http",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin cdyun/php-http",
+  "keywords": [
+    "php",
+    "http",
+    "cdyun"
+  ],
+  "authors": [
+    {
+      "name": "cdyun",
+      "email": "121625706@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cdyun\\PhpHttp\\": "src"
+    }
+  }
+}
