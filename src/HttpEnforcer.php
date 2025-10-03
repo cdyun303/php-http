@@ -16,14 +16,12 @@ class HttpEnforcer
 {
     /**
      * HTTP 客户端实例
-     * @var Client
      */
-    private static Client $instance;
+    private static $instance;
 
     /**
+     * 获取 HTTP 客户端实例
      * @return Client
-     * @author cdyun(121625706@qq.com)
-     * @desc HTTP 客户端实例
      */
     private static function handler(): Client
     {
